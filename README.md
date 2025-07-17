@@ -55,12 +55,3 @@ Desarrollar un pipeline ETL real que:
 
 - Se guarda el DataFrame limpio en una base de datos SQLite (`covid_us.db`).
 - Se reemplaza la tabla si ya existía (`if_exists='replace'`).
-
-
-## 📦 Estructura del proyecto
-
-ETL_Covid/
-├── ETL-Covid.ipynb # Notebook con el pipeline completo
-├── covid_us.db # Base de datos SQLite con los datos cargados
-└── covid_us_clean # Csv limpio
-
